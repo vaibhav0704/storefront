@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": "659a5dea4ffd21f5bb8fb6ad",
+      "name": "Vaibhav",
+      "email": "vaibhavsaraf.08@gmail.com",
+      "role": "USER",
+      "password": "e68148c0bfb87ee5c54d76346be455bb9467ade8f294ef82c11a2c1bb86d300c2f1db300eb95e619c5346be226b241efbbf2a115a254ee2fadd861cb97a4b6be",
+      "salt": "37a4708d9e77700df05645dac419290e"
+    },
+    {
+      "id": "659a659d916cb453e9402043",
+      "name": "vaibhav",
+      "email": "vaibhav@gmail.com",
+      "role": "ADMIN",
+      "password": "43e513c436da341755b7182fbb80d85d1b04b61d9662001083c2ab33bbd1f7d34cbdb4fde9b123d74acd45797e7f912ee6043e6e4229d643146097e44b0c4c5d",
+      "salt": "8251d8ceddb2812183e8a9f932491268"
+    }
+  ],
+  "categories": [
+    {
+      "id": "659a6d93d467d08aac9b2b45",
+      "name": "Shoes"
+    },
+    {
+      "id": "659a6daad467d08aac9b2b46",
+      "name": "T-Shirt"
+    },
+    {
+      "id": "659a6dd1d467d08aac9b2b48",
+      "name": "Shirt"
+    },
+    {
+      "id": "659a6e36d467d08aac9b2b49",
+      "name": "Lower"
+    }
+  ],
+  "products": [
+    {
+      "image": {
+        "alt": "t-shirt NK image",
+        "src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.pinterest.com%2Ftj_kerr%2Fnike-t-shirts%2F&psig=AOvVaw1AC-DCAZbNtbJita9qUy94&ust=1704707043314000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCPDpheD-yoMDFQAAAAAdAAAAABAE"
+      },
+      "id": "659a72f3f6dffb925036dd27",
+      "name": "t-shirt NK",
+      "price": 799,
+      "description": "Nike t-shirt",
+      "categoryId": "659a6daad467d08aac9b2b46"
+    },
+    {
+      "image": {
+        "alt": "t-shirt AD image",
+        "src": "https://assets.ajio.com/medias/sys_master/root/20220402/ZrFN/6247526ef997dd03e243cb11/-1117Wx1400H-410262125-black-MODEL.jpg"
+      },
+      "id": "659a735cf6dffb925036dd28",
+      "name": "t-shirt AD",
+      "price": 799,
+      "description": "Adidas t-shirt",
+      "categoryId": "659a6daad467d08aac9b2b46"
+    },
+    {
+      "image": {
+        "alt": "Shirt VH image",
+        "src": "https://rukminim2.flixcart.com/image/850/1000/joq2qa80/shirt/f/r/t/40-vhsfccuft81233-van-heusen-original-imafb4aafaxzg8zh.jpeg?q=90"
+      },
+      "id": "659a73e1f6dffb925036dd29",
+      "name": "Shirt VH",
+      "price": 799,
+      "description": "Van Heusen shirt",
+      "categoryId": "659a6dd1d467d08aac9b2b48"
+    },
+    {
+      "image": {
+        "alt": "Shoes PM image",
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/379987/01/sv01/fnd/IND/fmt/png/Scorch-Mark-Slip-On-Men's-Running-Shoes"
+      },
+      "id": "659a747cf6dffb925036dd2a",
+      "name": "Shoes PM",
+      "price": 799,
+      "description": "Shoes from Puma",
+      "categoryId": "659a6d93d467d08aac9b2b45"
+    },
+    {
+      "image": {
+        "alt": "Tracks RB image",
+        "src": "https://i.ebayimg.com/images/g/ihQAAOSwD0xhHdU6/s-l1200.webp"
+      },
+      "id": "659a74d8f6dffb925036dd2b",
+      "name": "Tracks RB",
+      "price": 799,
+      "description": "Tracks from Reebok",
+      "categoryId": "659a6e36d467d08aac9b2b49"
+    }
+  ]
+}
