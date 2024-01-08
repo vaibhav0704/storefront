@@ -24,8 +24,25 @@ async function createAdmin(email: string, name: string, password: string) {
     }))
 };
 
+async function addData() {
+    
+    const data = await fs.readFileSync(`${__dirname}/data.json`);
+    const dataToSeed = JSON.parse(data.toString());
+
+    const category =await prisma.category.createMany({
+        data: dataToSeed.categories
+    });
+
+    const product = await prisma.product.createMany({
+        data: dataToSeed.products
+    });
+}
+
 async function setupDB() {
-    await createAdmin('vaibhav@gmail.com', 'vaibhav', '1234')
+    await createAdmin('admin@gmail.com', 'admin', '1234')
+    await addData();
+
+    console.log('data seeded sucessfully');
 };
 
 setupDB();
